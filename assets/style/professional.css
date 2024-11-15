@@ -1,0 +1,45 @@
+.professional{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+}
+.title-professional{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.title-professional h1{
+    font: 32;
+    color: #33A8d8;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-top: 100px solid black;
+    border-left: 300px solid black;
+    border-right: 300px solid black;
+    border-bottom: 70px solid black;
+}
+.img-profesisonal{
+    margin-bottom:  20px;
+}
+.img-profesisonal img{
+    width: 659;
+    height: 429;
+}
+
+.text-professional{
+    color: white;
+size: 16px;
+font-weight: 400;
+line-height: 18.78px;
+text-align: center;
+border-top: 70px solid #000000;
+border-left: 300px solid #000000;
+border-right: 300px solid #000000;
+border-bottom: 100px solid #000000;
+max-width: 100%;
+}
+

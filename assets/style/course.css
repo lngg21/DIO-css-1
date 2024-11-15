@@ -1,0 +1,81 @@
+.course{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.title-course{
+    margin-bottom: 10px;
+}
+
+.title-course h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #33A8DB;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37.57px;
+    margin-top: 50px;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
+}
+
+.title-course p{
+    text-align: center;
+    text-transform:none;
+    color: white;
+    font-weight:normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.modules{
+    padding: 15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.modules ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.modules ul li{
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    border-radius: 30px;
+    padding: 20px 100px;
+    text-decoration: none;
+}
+
+.modules ul li:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.modules a{
+    text-decoration: none;
+    color:#fff;
+   font-size: 18px;
+   text-align: center;
+
+}
+
+.modules strong{
+    color: #33A8DB;
+    font-size: 24px;
+
+}
+
